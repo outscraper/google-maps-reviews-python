@@ -1,7 +1,10 @@
 # Outscraper SDK in Python
 Python SDK that allows fetching Google Maps reviews from any place. Fetch reviews from any business on Google Maps without limitations.
 
+
 [API Docs](https://app.outscraper.com/api-docs#tag/Google-Maps/paths/~1maps~1reviews-v3/get)
+
+[Generate API Token](https://app.outscraper.com/profile)
 
 ## Installation
 
