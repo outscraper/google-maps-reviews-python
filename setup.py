@@ -12,7 +12,7 @@ def readme():
 setup(
     name='google-maps-reviews',
     version=VERSION,
-    description='Google Maps Reviews API',
+    description='Google Maps Reviews API SDK',
     long_description=readme(),
     classifiers = ['Programming Language :: Python',
                     'License :: OSI Approved :: MIT License',
