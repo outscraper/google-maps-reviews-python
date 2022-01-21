@@ -1,9 +1,6 @@
 from setuptools import setup
 
 
-from google_maps_reviews import VERSION
-
-
 def readme():
     with open('README.rst') as f:
         return f.read()
@@ -11,7 +8,7 @@ def readme():
 
 setup(
     name='google-maps-reviews',
-    version=VERSION,
+    version='0.0.3',
     description='Google Maps Reviews API SDK',
     long_description=readme(),
     classifiers = ['Programming Language :: Python',

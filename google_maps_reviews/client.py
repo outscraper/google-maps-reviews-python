@@ -3,9 +3,6 @@ import requests
 from .utils import as_list
 
 
-VERSION = '0.0.2'
-
-
 class ReviewsClient(object):
     """ReviewsClient - Python SDK.
     ```python
@@ -22,7 +19,7 @@ class ReviewsClient(object):
     def __init__(self, api_key: str) -> None:
         self._api_headers = {
             'X-API-KEY': api_key,
-            'client': f'Python G-Maps Reviews SDK {VERSION}'
+            'client': 'Python G-Maps Reviews SDK'
         }
 
     def get_reviews(self, query: list, reviewsLimit: int = 10, limit: int = 1, sort: str = 'most_relevant',
